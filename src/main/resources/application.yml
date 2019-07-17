@@ -1,0 +1,12 @@
+server:
+  port: 8080
+student:
+  age: 24
+  name: 顾垚江朱烨
+#content: "name:${name},age:${age}"
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
