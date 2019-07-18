@@ -5,8 +5,7 @@ student:
   name: 顾垚江朱烨
 #content: "name:${name},age:${age}"
 spring:
-  http:
-    encoding:
-      charset: UTF-8
-      force: true
-      enabled: true
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
